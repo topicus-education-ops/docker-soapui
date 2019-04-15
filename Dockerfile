@@ -1,6 +1,6 @@
 FROM centos:7
 FROM python:2.7
-FROM java:openjdk-11-jdk
+FROM openjdk:11-jdk
 LABEL maintainer="Daniel Davison <sircapsalot@gmail.com>"
 
 #  Version
