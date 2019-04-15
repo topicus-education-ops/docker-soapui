@@ -1,7 +1,7 @@
 FROM centos:7
 FROM python:2.7
 FROM java:openjdk-11-jdk
-MAINTAINER Daniel Davison <sircapsalot@gmail.com>
+LABEL maintainer="Daniel Davison <sircapsalot@gmail.com>"
 
 #  Version
 ENV   SOAPUI_VERSION  5.5.0
